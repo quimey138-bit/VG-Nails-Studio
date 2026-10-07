@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #171412;
+  background: #fffaf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(199, 166, 106, 0.14), transparent 28rem),
+    linear-gradient(180deg, #fffaf6 0%, #f8efe7 48%, #fffaf6 100%);
+}
+
+::selection {
+  background: rgba(199, 166, 106, 0.3);
+}
+
+.font-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.glass-nav {
+  background: rgba(255, 250, 246, 0.82);
+  border-bottom: 1px solid rgba(58, 43, 35, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.section-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.premium-border {
+  border: 1px solid rgba(58, 43, 35, 0.12);
+}
+
+.image-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 25%, rgba(255,255,255,0.34) 48%, transparent 68%);
+  transform: translateX(-120%);
+  transition: transform 700ms ease;
+}
+
+.image-sheen:hover::after {
+  transform: translateX(120%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
