@@ -6,7 +6,7 @@ export const instagramHref =
 
 export const services = [
   {
-    title: "Kapping Gel",
+    title: "Kapping Hibrido",
     description:
       "Refuerzo elegante sobre la uña natural para aportar resistencia, brillo y una terminación prolija.",
     detail: "Ideal para mantener largo natural"
@@ -20,7 +20,7 @@ export const services = [
   {
     title: "Esculpidas",
     description:
-      "Construcción personalizada para lograr largo, forma y estructura con un resultado cómodo y sofisticado.",
+      "Construcción personalizada para lograr largo, forma y estructura con un resultado cómodo y sofisticado. Gel, Poligel, Acrilico",
     detail: "Diseño de forma a medida"
   },
   {
