@@ -20,8 +20,8 @@ export const services = [
   {
     title: "Esculpidas",
     description:
-      "Construcción personalizada para lograr largo, forma y estructura con un resultado cómodo y sofisticado. Gel, Poligel, Acrilico",
-    detail: "Diseño de forma a medida"
+      "Construcción personalizada para lograr largo, forma y estructura con un resultado cómodo y sofisticado.",
+    detail: "Gel, Poligel y Acrilico"
   },
   {
     title: "Nail Art",
