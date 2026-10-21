@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="sobre-mi" className="py-20 sm:py-28">
       <div className="section-shell grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
-        <div className="relative">
+        <div>
           <div className="premium-border image-sheen relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-veil shadow-soft">
             <Image
               src="/gallery/foto-sobre-mi.jpeg"
@@ -13,14 +13,6 @@ export default function About() {
               sizes="(min-width: 1024px) 42vw, 100vw"
               className="object-cover"
             />
-          </div>
-          <div className="absolute -bottom-5 left-5 right-5 rounded-3xl border border-white/65 bg-white/78 p-5 shadow-soft backdrop-blur">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-champagne">
-              La historia detrás de VG
-            </p>
-            <p className="mt-2 font-display text-3xl font-semibold leading-none text-ink">
-              Más que un turno de uñas, tu momento.
-            </p>
           </div>
         </div>
 
