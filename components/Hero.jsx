@@ -53,10 +53,10 @@ export default function Hero() {
 
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/72 to-transparent p-7 text-white">
               <p className="text-xs uppercase tracking-[0.22em] text-white/70">
-                La persona detrás de VG
+                Diseños con caracter
               </p>
               <p className="mt-2 font-display text-4xl font-semibold">
-                Diseños con carácter
+                La persona detrás de VG
               </p>
             </div>
           </div>
