@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, MessageCircle, Sparkles } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import { whatsappHref } from "@/data/site";
 
 export default function Hero() {
@@ -7,7 +7,6 @@ export default function Hero() {
     <section id="inicio" className="section-shell flex min-h-screen items-center pt-28">
       <div className="grid w-full items-center gap-10 pb-14 lg:grid-cols-[0.95fr_1.05fr] lg:gap-14">
         <div className="animate-float-in">
-
           <h1 className="font-display text-[clamp(4rem,17vw,8.5rem)] font-semibold leading-[0.78] text-ink">
             VG
             <span className="mt-4 block text-[clamp(2.6rem,10vw,5.6rem)] text-espresso">
@@ -44,8 +43,8 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-[620px] animate-float-in [animation-delay:160ms]">
           <div className="image-sheen premium-border relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-veil shadow-soft">
             <Image
-              src="/gallery/pink-french-almond.png"
-              alt="Uñas almendradas con francesita rosa de VG Nail Studio"
+              src="/gallery/foto-presentacion.jpeg"
+              alt="Van, creadora de VG Nail Studio"
               fill
               priority
               sizes="(min-width: 1024px) 52vw, 100vw"
@@ -54,7 +53,7 @@ export default function Hero() {
 
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/72 to-transparent p-7 text-white">
               <p className="text-xs uppercase tracking-[0.22em] text-white/70">
-                Hecho a mano
+                La persona detrás de VG
               </p>
               <p className="mt-2 font-display text-4xl font-semibold">
                 Diseños con carácter

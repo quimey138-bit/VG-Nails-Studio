@@ -61,6 +61,26 @@ export const gallery = [
     title: "Summer art",
     src: "/gallery/summer-art-almond.png",
     category: "nail-art"
+  },
+  {
+    title: "Black and silver line art",
+    src: "/gallery/nail-art-1.jpeg",
+    category: "nail-art"
+  },
+  {
+    title: "Blue floral french",
+    src: "/gallery/nail-art-2.jpeg",
+    category: "nail-art"
+  },
+  {
+    title: "Pink 3D flowers",
+    src: "/gallery/nail-art-3.jpeg",
+    category: "nail-art"
+  },
+  {
+    title: "Colorful floral french",
+    src: "/gallery/nail-art-4.jpeg",
+    category: "nail-art"
   }
 ];
 
