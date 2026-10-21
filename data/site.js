@@ -21,7 +21,7 @@ export const services = [
     title: "Esculpidas",
     description:
       "Construcción personalizada para lograr largo, forma y estructura con un resultado cómodo y sofisticado.",
-    detail: "Gel, Poligel y Acrilico"
+    detail: "Diseño de forma a medida"
   },
   {
     title: "Nail Art",
@@ -35,47 +35,59 @@ export const gallery = [
   {
     title: "French celeste",
     src: "/gallery/blue-french-square.png",
-    shape: "Cuadradas",
-    style: "Francesitas Avanzadas"
+    category: "semipermanente"
   },
   {
     title: "Chrome icy",
     src: "/gallery/chrome-blue-glam.png",
-    shape: "Almendradas",
-    style: "Glam"
+    category: "efectos"
   },
   {
     title: "Stars & gold",
     src: "/gallery/gold-detail-square.png",
-    shape: "Cuadradas",
-    style: "Glam"
+    category: "nail-art"
   },
   {
     title: "Pink french",
     src: "/gallery/pink-french-almond.png",
-    shape: "Almendradas",
-    style: "Francesitas Avanzadas"
+    category: "semipermanente"
   },
   {
     title: "Cow print",
     src: "/gallery/cow-print-coffin.png",
-    shape: "Coffin",
-    style: "Minimalista"
+    category: "nail-art"
   },
   {
     title: "Summer art",
     src: "/gallery/summer-art-almond.png",
-    shape: "Almendradas",
-    style: "Glam"
+    category: "nail-art"
   }
 ];
 
 export const filters = [
-  "Todos",
-  "Almendradas",
-  "Coffin",
-  "Cuadradas",
-  "Glam",
-  "Minimalista",
-  "Francesitas Avanzadas"
+  {
+    id: "all",
+    label: "Todos los trabajos",
+    description: "Una vista general del portfolio."
+  },
+  {
+    id: "nail-art",
+    label: "Nail art a mano",
+    description: "Dibujos, flores, líneas y diseños hechos a mano."
+  },
+  {
+    id: "esculpidas",
+    label: "Uñas esculpidas",
+    description: "Trabajos realizados mediante técnicas de esculpido."
+  },
+  {
+    id: "semipermanente",
+    label: "Esmaltado semipermanente",
+    description: "Color uniforme o diseños sencillos."
+  },
+  {
+    id: "efectos",
+    label: "Efectos y diseños especiales",
+    description: "Cromados, cat eye, glitter, espejo y más."
+  }
 ];
