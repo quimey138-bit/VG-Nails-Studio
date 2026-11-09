@@ -3,6 +3,7 @@ import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
+import Location from "@/components/Location";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Gallery />
       <About />
+      <Location />
       <FinalCta />
       <Footer />
     </main>

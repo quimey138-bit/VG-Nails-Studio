@@ -8,7 +8,8 @@ import { instagramHref, whatsappHref } from "@/data/site";
 const links = [
   { label: "Servicios", href: "#servicios" },
   { label: "Portfolio", href: "#portfolio" },
-  { label: "Sobre mí", href: "#sobre-mi" }
+  { label: "Sobre mí", href: "#sobre-mi" },
+  { label: "Ubicación", href: "#ubicacion" }
 ];
 
 export default function Navbar() {

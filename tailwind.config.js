@@ -21,8 +21,8 @@ module.exports = {
         glow: "0 18px 50px rgba(199, 166, 106, 0.25)"
       },
       fontFamily: {
-        display: ["Cormorant Garamond", "Georgia", "serif"],
-        body: ["Inter", "Segoe UI", "Arial", "sans-serif"]
+        display: ["var(--font-display)", "Georgia", "serif"],
+        body: ["var(--font-body)", "Segoe UI", "Arial", "sans-serif"]
       },
       keyframes: {
         floatIn: {

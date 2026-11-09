@@ -45,6 +45,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      <p className="section-shell mt-8 border-t border-espresso/10 pt-6 text-center text-sm text-espresso/55">
+        Sitio diseñado y desarrollado por Quim
+      </p>
     </footer>
   );
 }

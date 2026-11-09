@@ -11,7 +11,7 @@ export default function FinalCta() {
         <h2 className="mx-auto mt-4 max-w-3xl font-display text-5xl font-semibold leading-none sm:text-7xl">
           Llevá tu próxima idea de uñas a VG Nail Studio.
         </h2>
-        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/68">
+        <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-espresso/70">
           Compartí una referencia, elegí el estilo y coordiná tu turno directamente por WhatsApp.
         </p>
         <a

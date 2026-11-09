@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-body), "Segoe UI", Arial, sans-serif;
   background:
     radial-gradient(circle at 12% 8%, rgba(199, 166, 106, 0.14), transparent 28rem),
     linear-gradient(180deg, #fffaf6 0%, #f8efe7 48%, #fffaf6 100%);
@@ -30,7 +30,7 @@ body {
 }
 
 .font-display {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-display), Georgia, serif;
 }
 
 .glass-nav {

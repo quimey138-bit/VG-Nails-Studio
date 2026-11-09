@@ -111,3 +111,13 @@ export const filters = [
     description: "Cromados, cat eye, glitter, espejo y más."
   }
 ];
+
+export const mapsHref = "https://maps.app.goo.gl/MSKRTUfMQUAXpDgR8";
+
+export const address = {
+  street: "Tucumán 1671",
+  city: "Presidente Derqui, Buenos Aires"
+};
+
+export const mapEmbedSrc =
+  "https://maps.google.com/maps?q=-34.4852908,-58.8382869&z=17&output=embed";
